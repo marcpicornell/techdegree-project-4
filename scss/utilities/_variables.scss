@@ -1,0 +1,63 @@
+/*                                      */
+/* List of colors used in the CSS       */
+/*                                      */
+
+$color-main:                #777;
+$color-link:                #51ddfc;
+$color-headline-primary:    #58e1c1;
+$color-headline-secondary:  #777;
+
+$color-blockquote-bl:       #58e1c1;  // border left
+$color-nav-link-hover:      #fff;
+$color-nav-link-bg:         #58e1c1;  // background
+
+$color-btn-default:         #51ddfc;
+$color-btn-error:           #e4757a;
+$color-btn-info:            #927bc1;
+$color-btn-success:         #63cc82;
+$color-btn-warning:         #fd7856;
+
+
+
+
+/*                                      */
+/* List of breakpoint used in the CSS   */
+/*                                      */
+
+$medium-display:                768px;
+
+/* ============================================= */
+/*              Maps                             */
+/* ============================================= */
+
+$flex-basis-cols: 
+    (
+    'col-1':    8.33%,
+    'col-2':    16.67%,
+    'col-3':    25.00%,
+    'col-4':    33.33%,
+    'col-5':    41.67%,
+    'col-6':    50.00%,
+    'col-7':    58.33%,
+    'col-8':    66.67%,
+    'col-9':    75.00%,
+    'col-10':   83.33%,
+    'col-11':   91.67%,
+    'col-12':   100%,
+    );
+
+$background-color-cols:
+    (
+    'col-1':    #927bc1,
+    'col-2':    #fd7856,
+    'col-3':    #deb2ee,
+    'col-4':    #7ee6fd,
+    'col-5':    #88d9a0,
+    'col-6':    #4da2bb,
+    'col-7':    #ec9fa3,
+    'col-8':    #fd9f85,
+    'col-9':    #e4757a,
+    'col-10':   #63cc82,
+    'col-11':   #51ddfc,
+    'col-12':   #80e8d1,        
+    );

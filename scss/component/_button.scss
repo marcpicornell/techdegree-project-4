@@ -1,0 +1,49 @@
+  /* ============================================= */
+  /*              Buttons                          */
+  /* ============================================= */
+  
+  .btn
+    {
+      margin-top: 15px;
+      width: 100%;
+      color: #fff;
+      border: none;
+      padding: 10px 0;
+      text-transform: uppercase;
+      border-radius: 5px;
+      
+      @media (min-width: 768px)
+      {
+          padding: 10px 30px;
+          
+          & + & 
+            {
+              margin-left: 10px;
+            }
+      }
+    }
+
+  .default
+  {
+    @include btn-lighter($color-btn-default);
+  }
+  
+  .error
+  {
+    @include btn-lighter($color-btn-error);
+  }
+  
+  .info
+  {
+    @include btn-lighter($color-btn-info);
+  }
+  
+  .success
+  {
+    @include btn-lighter($color-btn-success);
+  }
+  
+  .warning
+  {
+    @include btn-lighter($color-btn-warning);
+  }

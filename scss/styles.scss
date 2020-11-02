@@ -1,0 +1,24 @@
+
+@import 'utilities/_index';
+@import 'base/_index';
+@import 'component/_index';
+
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    font-family: $font-main;
+    color: $color-main;
+    box-sizing: border-box;
+  }
+  
+p {
+    line-height: 1.45em;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,55 @@
+/*                                      */
+/*      Font family                     */
+/*                                      */
+
+$font-main: 'Lato', sans-serif;
+
+/*                                      */
+/*      Font Weight                     */
+/*                                      */
+
+$font-weight-headline-secondary:    300;
+$font-weight-blockquote:            300;
+$font-weight-link:                  700;
+
+/*                                      */
+/*      Font Size                       */
+/*                                      */
+
+$font-size-blockquote:              1.5em;
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+  
+  .headline 
+    {
+      &-primary
+        {
+          color: $color-headline-primary;
+          margin-left: 10px;
+        }
+
+      &-secondary
+        {
+          color: $color-headline-secondary;
+          font-weight: $font-weight-headline-secondary;
+        }
+    }
+  
+  .link 
+    {
+      color: $color-link;
+      font-weight: $font-weight-link;
+    }
+  
+  .blockquote
+    {
+      border-left: 8px solid $color-blockquote-bl;
+      border-radius: 5px;
+      font-size: $font-size-blockquote;
+      font-style: italic;
+      font-weight: $font-weight-blockquote;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
